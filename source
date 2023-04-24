@@ -1,0 +1,10 @@
+-- Raz --
+-- Auto Break Lasso --
+
+ while wait() do
+
+local A_1 = "BreakFree"
+local Event = game:GetService("ReplicatedStorage").GeneralEvents.LassoEvents
+Event:FireServer(A_1)
+
+ end
